@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="2DGameFrameWork">
+      <UniqueIdentifier>{1c6809fa-a182-415d-b335-789339d2b8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\Manager">
+      <UniqueIdentifier>{31408ee8-00de-4740-811d-a6e4fdbcb71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{d69d1829-f2b0-49fe-ad7c-9337a46af845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\UTIL">
+      <UniqueIdentifier>{6db62d6e-83d9-406e-9efd-3001d71d8e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\image">
+      <UniqueIdentifier>{67d5ed0d-353a-42aa-b119-d332b3a34f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\txtData">
+      <UniqueIdentifier>{3b61dcdb-a81e-4d48-a808-5227cbbff4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\progressBar">
+      <UniqueIdentifier>{4a6444ce-8248-484f-ab94-cd687ab5abe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\timer">
+      <UniqueIdentifier>{df29e5e8-0aa0-417d-8bd9-d01fd5d37625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\animation">
+      <UniqueIdentifier>{51b68636-6ae0-49af-bf4a-892f8f7b08a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\effect">
+      <UniqueIdentifier>{dfe7019d-ad5c-4270-a6b2-424ec730d761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\bullet">
+      <UniqueIdentifier>{805ba74c-2d4d-4600-a7dc-9dc2e3713866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\database">
+      <UniqueIdentifier>{def84d4b-efb9-4a83-abc3-265d503ba466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFrameWork\move">
+      <UniqueIdentifier>{d78ab3a5-188e-40ac-a97a-0ea28069968a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\player">
+      <UniqueIdentifier>{2b000ab9-c96c-4ae7-a4d2-afec0c44974d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy">
+      <UniqueIdentifier>{712516c9-87c9-4b8c-9c5f-76c67a5a5609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\scene">
+      <UniqueIdentifier>{f639c187-2ec2-43f2-a416-4542ee704782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\shop">
+      <UniqueIdentifier>{c36f19a1-d69c-4a96-9898-8b609a20d842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\menu">
+      <UniqueIdentifier>{5fdafa26-56a0-4254-9b8a-de6d41c4e6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\player\bullet">
+      <UniqueIdentifier>{9437fdf3-4a2a-4350-afd0-8206e136b99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\skill">
+      <UniqueIdentifier>{90aaa88a-6f6c-4479-bfe0-a9e778887aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy\ancientDragon">
+      <UniqueIdentifier>{27f7041d-1ca2-4944-aa6e-a58cf1f6352d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\scene\loading">
+      <UniqueIdentifier>{2c0a88c0-541e-47e3-96d5-6991a3864407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy\goblin">
+      <UniqueIdentifier>{7eff5c21-4eaa-4bd2-8f7a-139b24ca54ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy\ghost">
+      <UniqueIdentifier>{beb23a95-d8a4-4515-a7c8-d19e3906a46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy\killerRabbit">
+      <UniqueIdentifier>{8745327b-252e-4a8f-a01b-4606dc1969e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy\trap">
+      <UniqueIdentifier>{311ee57c-dac1-41f2-9516-cc9c968f031b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy\slime">
+      <UniqueIdentifier>{6135f95c-16eb-4e26-8e1d-a79bd46b2c7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFrameWork\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFrameWork\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFrameWork\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFrameWork\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFrameWork\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFrameWork\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFrameWork\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>2DGameFrameWork\database</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletPF.h">
+      <Filter>2DGameFrameWork\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="destroyPixelManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="directionMove.h">
+      <Filter>2DGameFrameWork\move</Filter>
+    </ClInclude>
+    <ClInclude Include="jump.h">
+      <Filter>2DGameFrameWork\move</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>mainGame\player</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>mainGame\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>mainGame\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="skillInfo.h">
+      <Filter>mainGame\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="trap.h">
+      <Filter>mainGame\enemy\trap</Filter>
+    </ClInclude>
+    <ClInclude Include="slime.h">
+      <Filter>mainGame\enemy\slime</Filter>
+    </ClInclude>
+    <ClInclude Include="ancientDragon.h">
+      <Filter>mainGame\enemy\ancientDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="fireFloor.h">
+      <Filter>mainGame\enemy\ancientDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="fireRain.h">
+      <Filter>mainGame\enemy\ancientDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="fireWorld.h">
+      <Filter>mainGame\enemy\ancientDragon</Filter>
+    </ClInclude>
+    <ClInclude Include="attackSkill.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="blizzard.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="createFood.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="cuss.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="gravity.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="icePrision.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="petrification.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="protection.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="rockPress.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="skillManager.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="ThunderCloud.h">
+      <Filter>mainGame\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="damageShow.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>mainGame\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>mainGame\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="graveStageLoadingScene.h">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="lastBossLoadingScene.h">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="townLoadingScene.h">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="barScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="endingScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameOverScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="graveScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="guildScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="lastBossScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="openingScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="shopScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="townScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="mamaball.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="manaball2.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="normalBullet1.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="normalBullet2.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="normalBullet3.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="normalBullet4.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="normalBullet5.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="normalBullet6.h">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bag.h">
+      <Filter>mainGame\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="inven.h">
+      <Filter>mainGame\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>mainGame\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemySkill.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="motherEnemy.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ghost.h">
+      <Filter>mainGame\enemy\ghost</Filter>
+    </ClInclude>
+    <ClInclude Include="goblin.h">
+      <Filter>mainGame\enemy\goblin</Filter>
+    </ClInclude>
+    <ClInclude Include="deathAttack.h">
+      <Filter>mainGame\enemy\killerRabbit</Filter>
+    </ClInclude>
+    <ClInclude Include="killerRabbit.h">
+      <Filter>mainGame\enemy\killerRabbit</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="objectCollision.h">
+      <Filter>2DGameFrameWork\move</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFrameWork\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFrameWork\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFrameWork\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFrameWork\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFrameWork\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFrameWork\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFrameWork\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>2DGameFrameWork\database</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletPF.cpp">
+      <Filter>2DGameFrameWork\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="destroyPixelManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="directionMove.cpp">
+      <Filter>2DGameFrameWork\move</Filter>
+    </ClCompile>
+    <ClCompile Include="jump.cpp">
+      <Filter>2DGameFrameWork\move</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>mainGame\player</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>mainGame\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="state.cpp">
+      <Filter>mainGame\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="skillInfo.cpp">
+      <Filter>mainGame\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="trap.cpp">
+      <Filter>mainGame\enemy\trap</Filter>
+    </ClCompile>
+    <ClCompile Include="slime.cpp">
+      <Filter>mainGame\enemy\slime</Filter>
+    </ClCompile>
+    <ClCompile Include="ancientDragon.cpp">
+      <Filter>mainGame\enemy\ancientDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="fireFloor.cpp">
+      <Filter>mainGame\enemy\ancientDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="fireRain.cpp">
+      <Filter>mainGame\enemy\ancientDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="fireWorld.cpp">
+      <Filter>mainGame\enemy\ancientDragon</Filter>
+    </ClCompile>
+    <ClCompile Include="attackSkill.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="blizzard.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="createFood.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="cuss.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="gravity.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="icePrision.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="petrification.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="protection.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="rockPress.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="skillManager.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="ThunderCloud.cpp">
+      <Filter>mainGame\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="damageShow.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>mainGame\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>mainGame\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="graveStageLoadingScene.cpp">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="lastBossLoadingScene.cpp">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="townLoadingScene.cpp">
+      <Filter>mainGame\scene\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="barScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="endingScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameOverScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="graveScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="guildScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="lastBossScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="openingScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="shopScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="townScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="mamaball.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="manaball2.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="normalBullet1.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="normalBullet2.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="normalBullet3.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="normalBullet4.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="normalBullet5.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="normalBullet6.cpp">
+      <Filter>mainGame\player\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bag.cpp">
+      <Filter>mainGame\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="inven.cpp">
+      <Filter>mainGame\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>mainGame\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemySkill.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="motherEnemy.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ghost.cpp">
+      <Filter>mainGame\enemy\ghost</Filter>
+    </ClCompile>
+    <ClCompile Include="goblin.cpp">
+      <Filter>mainGame\enemy\goblin</Filter>
+    </ClCompile>
+    <ClCompile Include="deathAttack.cpp">
+      <Filter>mainGame\enemy\killerRabbit</Filter>
+    </ClCompile>
+    <ClCompile Include="killerRabbit.cpp">
+      <Filter>mainGame\enemy\killerRabbit</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="objectCollision.cpp">
+      <Filter>2DGameFrameWork\move</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
